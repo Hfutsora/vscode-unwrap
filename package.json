@@ -2,8 +2,10 @@
   "name": "unwrap",
   "displayName": "unwrap",
   "description": "Unwrap selection in vscode.",
+  "icon": "static/icon.png",
   "author": "hfutsora",
-  "version": "0.0.1",
+  "publisher": "hfutsora",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.65.0"
   },
