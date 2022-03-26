@@ -37,7 +37,7 @@ function toUnwrap(editor: vscode.TextEditor) {
         replacedSelections.push(
           new vscode.Selection(
             range.start,
-            range.end.translate({ characterDelta: -1 })
+            selection.end.translate({ characterDelta: -1 })
           )
         );
       }
